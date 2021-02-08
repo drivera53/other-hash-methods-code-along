@@ -10,4 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  groceries.values.flatten # Will turn [[a,b],[c,d]] into -> [a,b,c,d]
 end
